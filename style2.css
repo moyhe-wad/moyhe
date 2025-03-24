@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    overflow: hidden;
+}
+body{
+    background: url(img/pht10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    min-width:100%;
+ 
+}
+.pn{
+    width:100%;
+     height: 130px;
+   color: rgb(7, 24, 102);
+   padding-top: 20px;
+   display:flex;
+   flex-direction: row;
+   backdrop-filter: blur(30px);
+ }
+ .pn img{
+      width: 80px;
+      height:80px; 
+      border-radius:80px;
+   }
+  .pn h1{
+     padding-top:35px;
+     text-transform: uppercase;
+     font-size: 35px;
+ 
+ }
+ .first {
+    width: 100%;
+    background-color: rgb(194,184,184);
+  }
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+  }
+  .menu  li {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  .menu  li  a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #0d0d0e;
+  }
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(194,184,184);
+    border-top: 6px solid rgb(7,24,102);
+    width: 230px;
+    min-height: 130px;
+    list-style: none;
+    z-index: 999; 
+    margin-top: 14px;
+  }
+  .submenu li {
+    padding: 5px 10px;
+  }
+  .submenu li a {
+    text-decoration: none;
+    color: #0d0d0e;
+    display: block;
+  }
+  .menu li:hover .submenu {
+    display: block;
+  }
+.action{
+    background: transparent;
+   width:500px;
+   min-height: 400px;
+   color: white;
+   border-radius:25px;
+   backdrop-filter: blur(60px);
+  margin-left: 30%;
+}
+.action  h1{
+   text-align: center;
+   font-size:30px;
+   text-transform: uppercase;
+   margin:25px;
+   color: black;
+}
+.label{
+   padding:0 10px 0 10px ;
+}
+.child1{
+margin-top:10px;
+width:100%;
+height: 50px;
+
+}
+.child1 input{
+   width:100%;
+height: 45px;
+outline: none;
+border: 0px;
+border: 5px solid rgb(37, 34, 82);
+border-radius:20px;
+background: transparent;
+padding-left:15px;
+font-size:15px ;
+position: relative;
+}
+.child1 input::placeholder{
+   color: white;
+}
+.child1 i{
+   position: absolute;
+   right: 30px;
+transform: translateY(-05px);
+margin-top: 15px;
+font-size: 20px;
+}
+.child2{
+    margin-top:20px;
+    width:100%;
+height: 50px;
+}
+.child2 input{
+    width:100%;
+height: 45px;
+outline: none;
+border: 0px;
+border: 5px solid  rgb(37, 34, 82);
+border-radius:20px;
+background: transparent;
+padding-left:15px;
+font-size:15px ;
+position: relative;
+}
+.child2 input::placeholder{
+    color: white;
+}
+.child2 i{
+    position: absolute;
+    right: 30px;
+ transform: translateY(-05px);
+ margin-top: 15px;
+ font-size: 20px;
+}
+.child3{
+    margin-top:20px;
+    width:100%;
+height: 50px;
+}
+.child3 input{
+    width:100%;
+height: 45px;
+outline: none;
+border: 0px;
+border: 5px solid  rgb(37, 34, 82);
+border-radius:20px;
+background: transparent;
+padding-left:15px;
+font-size:15px ;
+position: relative;
+}
+.child3 input::placeholder{
+    color: white;
+}
+.child3 i{
+    position: absolute;
+    right: 30px;
+ transform: translateY(-05px);
+ margin-top: 15px;
+ font-size: 20px;
+}
+.input {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;;
+ 
+}
+.input .input1 input{
+    outline: none;
+    border: none;
+    width: 120px;
+    height:25px ;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.input .input2 input{
+    outline: none;
+    border: none;
+    width: 90px;
+    height:25px ;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+  
+.chexbox{
+    font-size:15px ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.chexbox a{
+    color: black;
+    margin-left: 20px;
+}
