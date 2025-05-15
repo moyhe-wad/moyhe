@@ -15,7 +15,7 @@ body{
    padding-top: 20px;
    display:flex;
    flex-direction: row;
-   backdrop-filter: blur(30px);
+   backdrop-filter: blur(50px);
  }
  .pn img{
       width: 80px;
